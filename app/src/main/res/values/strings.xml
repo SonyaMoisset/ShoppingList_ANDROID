@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">ShoppingList</string>
+    <string name="app_name">Shopping List</string>
+    <string name="second_activity_name">Shopping Items</string>
+
     <string name="shopping_list_heading">Add items to Your Shopping List</string>
     <string name="item_one">Item One</string>
     <string name="item_two">Item Two</string>
@@ -12,4 +14,17 @@
     <string name="item_nine">Item Nine</string>
     <string name="item_ten">Item Ten</string>
     <string name="add_item">Add Item</string>
+
+    <string name="shopping_items_heading">Choose Your Items</string>
+    <string name="milk">Milk</string>
+    <string name="water">Water</string>
+    <string name="tea">Tea</string>
+    <string name="coffee">Coffee</string>
+    <string name="soda">Soda</string>
+    <string name="bread">Bread</string>
+    <string name="sugar">Sugar</string>
+    <string name="salt">Salt</string>
+    <string name="chicken">Chicken</string>
+    <string name="fish">Fish</string>
+    <string name="chocolate">Chocolate</string>
 </resources>

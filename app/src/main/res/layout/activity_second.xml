@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.shoppinglist.SecondActivity">
+
+    <TextView
+        android:id="@+id/shopping_items_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/shopping_items_heading"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/textSize_large"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <Button
+                android:id="@+id/milk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:background="@color/colorPrimary"
+                android:text="@string/milk"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/textSize_regular"/>
+
+            <Button
+                android:id="@+id/water"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:background="@color/colorPrimary"
+                android:text="@string/water"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/textSize_regular"/>
+
+            <Button
+                android:id="@+id/tea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:background="@color/colorPrimary"
+                android:text="@string/tea"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/textSize_regular"/>
+
+            <Button
+                android:id="@+id/coffee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:background="@color/colorPrimary"
+                android:text="@string/coffee"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/textSize_regular"/>
+
+            <Button
+                android:id="@+id/soda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:background="@color/colorPrimary"
+                android:text="@string/soda"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/textSize_regular"/>
+
+            <Button
+                android:id="@+id/bread"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:background="@color/colorPrimary"
+                android:text="@string/bread"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/textSize_regular"/>
+
+            <Button
+                android:id="@+id/sugar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:background="@color/colorPrimary"
+                android:text="@string/sugar"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/textSize_regular"/>
+
+            <Button
+                android:id="@+id/salt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:background="@color/colorPrimary"
+                android:text="@string/salt"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/textSize_regular"/>
+
+            <Button
+                android:id="@+id/chicken"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:background="@color/colorPrimary"
+                android:text="@string/chicken"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/textSize_regular"/>
+
+            <Button
+                android:id="@+id/fish"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:background="@color/colorPrimary"
+                android:text="@string/fish"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/textSize_regular"/>
+
+            <Button
+                android:id="@+id/chocolate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="@string/chocolate"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/textSize_regular"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
