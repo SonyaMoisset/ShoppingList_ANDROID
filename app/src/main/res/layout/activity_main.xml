@@ -15,12 +15,11 @@
         android:id="@+id/shopping_list_heading"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
         android:gravity="center_horizontal"
-        android:text="Add items to Your Shopping List"
+        android:text="@string/shopping_list_heading"
         android:textAllCaps="true"
         android:textColor="@color/colorAccent"
-        android:textSize="24sp"
+        android:textSize="@dimen/textSize_large"
         android:textStyle="bold"/>
 
     <TextView
@@ -29,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center_horizontal|center"
-        android:text="Item One"/>
+        android:text="@string/item_one"/>
 
     <TextView
         android:id="@+id/item_two"
@@ -37,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="Item Two"/>
+        android:text="@string/item_two"/>
 
     <TextView
         android:id="@+id/item_three"
@@ -45,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="Item Three"/>
+        android:text="@string/item_three"/>
 
     <TextView
         android:id="@+id/item_four"
@@ -53,7 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="Item Four"/>
+        android:text="@string/item_four"/>
 
     <TextView
         android:id="@+id/item_five"
@@ -61,7 +60,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="Item Five"/>
+        android:text="@string/item_five"/>
 
     <TextView
         android:id="@+id/item_six"
@@ -69,7 +68,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="Item Six"/>
+        android:text="@string/item_six"/>
 
     <TextView
         android:id="@+id/item_seven"
@@ -77,7 +76,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="Item Seven"/>
+        android:text="@string/item_seven"/>
 
     <TextView
         android:id="@+id/item_eight"
@@ -85,7 +84,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="Item Eight"/>
+        android:text="@string/item_eight"/>
 
     <TextView
         android:id="@+id/item_nine"
@@ -93,7 +92,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="Item Nine"/>
+        android:text="@string/item_nine"/>
 
     <TextView
         android:id="@+id/item_ten"
@@ -101,14 +100,14 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="Item Ten"/>
+        android:text="@string/item_ten"/>
 
     <Button
         android:id="@+id/add_item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
-        android:text="Add Item"
+        android:text="@string/add_item"
         android:textColor="@android:color/white"
-        android:textSize="18sp"/>
+        android:textSize="@dimen/textSize_regular"/>
 </LinearLayout>
