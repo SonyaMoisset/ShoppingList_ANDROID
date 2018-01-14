@@ -41,6 +41,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/activity_vertical_margin"
                 android:background="@color/colorPrimary"
+                android:onClick="addItem"
                 android:text="@string/milk"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/textSize_regular"/>
