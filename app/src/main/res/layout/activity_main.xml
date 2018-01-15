@@ -27,8 +27,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:gravity="center_horizontal|center"
-        android:text="@string/item_one"/>
+        android:gravity="center"
+        android:textSize="@dimen/textSize_regular"/>
 
     <TextView
         android:id="@+id/item_two"
@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="@string/item_two"/>
+        android:textSize="@dimen/textSize_regular"/>
 
     <TextView
         android:id="@+id/item_three"
@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="@string/item_three"/>
+        android:textSize="@dimen/textSize_regular"/>
 
     <TextView
         android:id="@+id/item_four"
@@ -52,7 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="@string/item_four"/>
+        android:textSize="@dimen/textSize_regular"/>
 
     <TextView
         android:id="@+id/item_five"
@@ -60,7 +60,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="@string/item_five"/>
+        android:textSize="@dimen/textSize_regular"/>
 
     <TextView
         android:id="@+id/item_six"
@@ -68,7 +68,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="@string/item_six"/>
+        android:textSize="@dimen/textSize_regular"/>
 
     <TextView
         android:id="@+id/item_seven"
@@ -76,7 +76,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="@string/item_seven"/>
+        android:textSize="@dimen/textSize_regular"/>
 
     <TextView
         android:id="@+id/item_eight"
@@ -84,7 +84,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="@string/item_eight"/>
+        android:textSize="@dimen/textSize_regular"/>
 
     <TextView
         android:id="@+id/item_nine"
@@ -92,7 +92,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="@string/item_nine"/>
+        android:textSize="@dimen/textSize_regular"/>
 
     <TextView
         android:id="@+id/item_ten"
@@ -100,7 +100,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="@string/item_ten"/>
+        android:textSize="@dimen/textSize_regular"/>
 
     <Button
         android:id="@+id/add_item"

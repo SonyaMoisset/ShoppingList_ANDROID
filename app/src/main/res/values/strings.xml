@@ -3,16 +3,6 @@
     <string name="second_activity_name">Shopping Items</string>
 
     <string name="shopping_list_heading">Add items to Your Shopping List</string>
-    <string name="item_one">Item One</string>
-    <string name="item_two">Item Two</string>
-    <string name="item_three">Item Three</string>
-    <string name="item_four">Item Four</string>
-    <string name="item_five">Item Five</string>
-    <string name="item_six">Item Six</string>
-    <string name="item_seven">Item Seven</string>
-    <string name="item_eight">Item Eight</string>
-    <string name="item_nine">Item Nine</string>
-    <string name="item_ten">Item Ten</string>
     <string name="add_item">Add Item</string>
 
     <string name="shopping_items_heading">Choose Your Items</string>
@@ -26,5 +16,4 @@
     <string name="salt">Salt</string>
     <string name="chicken">Chicken</string>
     <string name="fish">Fish</string>
-    <string name="chocolate">Chocolate</string>
 </resources>

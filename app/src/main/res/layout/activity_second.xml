@@ -41,7 +41,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/activity_vertical_margin"
                 android:background="@color/colorPrimary"
-                android:onClick="addItem"
+                android:onClick="addMilk"
                 android:text="@string/milk"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/textSize_regular"/>
@@ -52,6 +52,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/activity_vertical_margin"
                 android:background="@color/colorPrimary"
+                android:onClick="addWater"
                 android:text="@string/water"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/textSize_regular"/>
@@ -62,6 +63,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/activity_vertical_margin"
                 android:background="@color/colorPrimary"
+                android:onClick="addTea"
                 android:text="@string/tea"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/textSize_regular"/>
@@ -72,6 +74,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/activity_vertical_margin"
                 android:background="@color/colorPrimary"
+                android:onClick="addCoffee"
                 android:text="@string/coffee"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/textSize_regular"/>
@@ -82,6 +85,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/activity_vertical_margin"
                 android:background="@color/colorPrimary"
+                android:onClick="addSoda"
                 android:text="@string/soda"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/textSize_regular"/>
@@ -92,6 +96,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/activity_vertical_margin"
                 android:background="@color/colorPrimary"
+                android:onClick="addBread"
                 android:text="@string/bread"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/textSize_regular"/>
@@ -102,6 +107,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/activity_vertical_margin"
                 android:background="@color/colorPrimary"
+                android:onClick="addSugar"
                 android:text="@string/sugar"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/textSize_regular"/>
@@ -112,6 +118,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/activity_vertical_margin"
                 android:background="@color/colorPrimary"
+                android:onClick="addSalt"
                 android:text="@string/salt"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/textSize_regular"/>
@@ -122,6 +129,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/activity_vertical_margin"
                 android:background="@color/colorPrimary"
+                android:onClick="addChicken"
                 android:text="@string/chicken"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/textSize_regular"/>
@@ -132,16 +140,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/activity_vertical_margin"
                 android:background="@color/colorPrimary"
+                android:onClick="addFish"
                 android:text="@string/fish"
-                android:textColor="@android:color/white"
-                android:textSize="@dimen/textSize_regular"/>
-
-            <Button
-                android:id="@+id/chocolate"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/colorPrimary"
-                android:text="@string/chocolate"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/textSize_regular"/>
 
